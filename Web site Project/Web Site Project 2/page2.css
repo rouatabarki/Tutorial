@@ -1,0 +1,207 @@
+img {
+    width: 100%;
+    left: 0%;
+    top: 22%;
+    /* bottom: 30%; */
+    position: fixed ;
+    height: 370px;
+    
+}
+
+#tit {
+    /* background-image: url(graaad1.jpg); */
+    position: absolute;
+    left: 21%;
+    right: 0%;
+    top: 13% ;
+    color: black ;
+    font-family: halkduster, fantasy serif , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 30px;
+}
+#dep{
+    background-color: rgba(245, 238, 238, 0.705);
+    /* background: transparent; */
+    height:290px;
+    width: 300px;
+    top: 52%;
+    position: absolute;
+    left: 10%;
+    border-top: 5px  rgb(84, 104, 185) solid;
+}
+#deep{
+    margin-top: 15px;
+    position: relative;
+    left: 20%;
+    font-size: 30px;
+    font-family: bold ;
+    text-decoration: underline;
+}
+button{
+
+    background : transparent;
+    border: 2px solid rgb(182, 183, 190) ;
+    border-radius: 10px;
+    width: 14%;
+    height : 40px ;
+    font-size:  19px ;
+    font-family: 'Franklin Gothic Medium' ;
+}
+#d1{
+    position: absolute;
+    left : 14% ;
+    top : 65% ;
+}#d2{
+    position: absolute;
+    left : 14% ;
+    top : 73.5% ;
+}#d3{
+    position: absolute;
+    left : 14% ;
+    top : 82% ;
+}
+
+#res{
+    background-color: rgba(245, 238, 238, 0.705);
+    /* background: transparent; */
+    height:290px;
+    width: 300px;
+    top: 52%;
+    position: absolute;
+    left: 38.5%;
+    border-top: 5px  rgb(84, 104, 185) solid;
+}
+#rees{
+    margin-top: 15px;
+    position: relative;
+    left: 28%;
+    font-size: 30px;
+    font-family: bold ;
+    text-decoration: underline;
+}
+#r1{
+    position: absolute;
+    left : 42.5% ;
+    top : 65% ;
+}#r2{
+    position: absolute;
+    left : 42.5% ;
+    top : 73.5% ;
+}#r3{
+    position: absolute;
+    left : 42.5% ;
+    top : 82% ;
+}
+
+#nou{
+    background-color: rgba(245, 238, 238, 0.705);
+    /* background: transparent; */
+    height:290px;
+    width: 300px;
+    top: 52%;
+    position: absolute;
+    left: 67%;
+    border-top: 5px  rgb(84, 104, 185) solid;
+}
+#nouu{
+    margin-top: 15px;
+    position: relative;
+    left: 22%;
+    font-size: 30px;
+    font-family: bold ;
+    text-decoration: underline;
+}
+#n1{
+    position: absolute;
+    left : 71% ;
+    top : 65% ;
+}#n2{
+    position: absolute;
+    left : 71% ;
+    top : 73.5% ;
+}#n3{
+    position: absolute;
+    left : 71% ;
+    top : 82% ;
+}
+nav {
+
+    /* color: blue; */
+    position: fixed;
+    top : 0% ;
+    width : 97.5%;
+    height: 45px;
+    margin: 10px;
+  }
+  
+  nav ul {
+  list-style: circle; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  nav a {
+    font-size: 25px;
+    color:black;
+    font-family: halkduster, fantasy ;
+  }
+
+  div input{
+    position: fixed;
+    left: 84%;
+    top: 0% ;
+    height : 40px ;
+    margin: 15px;
+    width: 150px;
+    border : 3px black solid ;
+    border-radius: 30px;}
+  
+img{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: -0.2% ;
+    left : 91.5% ;
+    margin : 22.5px ;
+  }
+div i {
+    position: absolute ;
+    top: 50%;
+    font-size: 100px;
+    color: black;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 90%,
+    #44107a 20%,
+    #ff1361 100%,
+    #fff800 30%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+      position: absolute;
+      top: 10%;
+      left : 11%;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

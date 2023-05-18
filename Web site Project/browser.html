@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <link rel="stylesheet" href ="browser.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="container">
+
+</div>
+<div  class ="sidebar">
+<h1 id="wr">Institut Supérieur Des Sciences Appliquées Et Technologies de Mateur</h1>
+</div>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+  <div class="search">
+    <input type="search">
+    <img src="icone.jpg">
+</div>
+<button id="log" onclick="myFunction()">Read more </button>
+
+<div id="one"><h3 class="st">Etudiant</h3>
+  <br>
+  <button id="oneb" onclick="openSection()" >Se connecter</button>
+</div>
+  <div id="two">
+    <h3 id="ad">Administrateur</h3>
+  <button id="twob">Se connecter</button></div>
+<div id="three"><h3 id="tc">Enseignant</h3>
+  <button id="threeb">Se connecter</button></div>
+  <section id="target-section">
+    <i id="grad" class="fa-sharp fa-solid fa-user-graduate" style="color: #ffffff;"></i>
+    <div class="form-box">
+      <div class="form-value">
+        <form action="browser.php" method="post">
+          <div class="inputbox"> 
+            <i class="fa-regular fa-envelope fa-flip" style="color: #ffffff;"></i>
+              <input name="user_email" type="email" required>
+            <label for="">Adresse email</label>
+          </div>
+          <div class="inputbox">
+            <i class="fa-regular fa-lock fa-flip" style="color: #ffffff;"></i>
+            <input name="user_pass" type="password" required>
+            <label for="">Mot de passe</label>
+          </div>
+          <div class="forget">
+            <label for="">
+              <input type="checkbox">Remembrer Me 
+            </label>
+            <a href="#" Forget Password></a>
+          </div>
+          <button type="submit" ><a href="../Web Site Project 2/page2.html">Envoyer</a></button>
+        </form>
+      </div>
+    </div>
+</section>
+<p id="more">linstitut supéer..</p>
+  <script src="browser.js" >
+</script> 
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
